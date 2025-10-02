@@ -91,3 +91,49 @@ git add test5.md && git commit -m "Implemented test 5"
 git checkout dev
 git cherry-pick --no-commit 9id3180 
 ```
+### Visualizing the commit history
+```
+git log --graph
+```
+
+### Understanding Reflogs
+```
+git reflog
+```
+
+
+# Challenge - Part 2
+## Branching Basics
+### Feature Branch Creation
+```
+git branch -b ft/new-feature
+```
+### Working on the Feature Branch
+```
+touch feature.txt
+echo "I am the new functionality file created" > feature.txt
+git add feature.txt && git commit -m "Implemented core functionality for new feature"
+
+git checkout dev
+touch readme.txt
+echo "repository for learning git" > readme.txt
+git add readme.txt && git commit -m "Updated project readme"
+```
+#### Next step is merging the new created branch and the base branch which is dev
+### Branch Deletion
+```
+git branch -d ft/new-feature
+```
+
+### Create a brach from a commit 
+```
+git checkout -b ft/new-branch-from-commit 0e5286c
+```
+
+### Branch merging
+"Merge the ft/new-branch-from-commit branch into the dev branch "
+
+### Branch Rebasing
+"Rebasing is another method to integrate changes from a feature branch. It rewrites your branch history by incorporating its commits on top of the latest commit in the target branch"
+
+
