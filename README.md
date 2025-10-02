@@ -81,4 +81,13 @@ pick 85b1ced chore: Create second file
 pick 77e247b chore: Create initial file
 ```
 
+### Cherry-Picking Commits
+```
+git checkout -b ft/branch
+touch test5.md 
+echo "TEST5 md" > test5.md
+git add test5.md && git commit -m "Implemented test 5"
 
+git checkout dev
+git cherry-pick --no-commit 9id3180 
+```
