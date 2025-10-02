@@ -137,3 +137,22 @@ git checkout -b ft/new-branch-from-commit 0e5286c
 "Rebasing is another method to integrate changes from a feature branch. It rewrites your branch history by incorporating its commits on top of the latest commit in the target branch"
 
 
+```
+git checkout ft/new-branch-from-commit
+git rebase dev
+```
+
+### Renaming Branch
+
+```
+git branch -m ft/new-branch-from-commit ft/improved-branch-name
+```
+
+### Checking Out Detached HEAD
+"A Detached HEAD means you’re not on a branch, but directly on a commit.
+You can look around safely, but if you commit changes without creating a branch, they may be lost."
+```
+git checkout 5dabceca9725c1444eb1db2f4f7d9a3bc5d45a31
+
+```
+
