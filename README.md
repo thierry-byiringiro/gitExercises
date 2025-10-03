@@ -213,5 +213,6 @@ git push origin dev
 
 ### Pulling changes from remote repository
 ```
-git pull origin dev 
+git pull origin dev
+
 ```
