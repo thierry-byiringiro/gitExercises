@@ -156,3 +156,7 @@ git checkout 5dabceca9725c1444eb1db2f4f7d9a3bc5d45a31
 
 ```
 
+# Challenge - Part 3 
+## Advanced Workflows
+###  Stashing Changes
+```
