@@ -1,1 +1,1 @@
-i am a new feature created 
+The new feature created with commit and hash
