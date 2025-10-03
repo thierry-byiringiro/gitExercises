@@ -1,1 +1,1 @@
-This repository is for mastering git advanced
+repository for learning git!
