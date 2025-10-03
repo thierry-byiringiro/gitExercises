@@ -160,3 +160,11 @@ git checkout 5dabceca9725c1444eb1db2f4f7d9a3bc5d45a31
 ## Advanced Workflows
 ###  Stashing Changes
 ```
+git stash push -m "Modified typing on my readme file"
+
+```
+### Retrieving Stash changes
+```
+git stash pop
+
+```
