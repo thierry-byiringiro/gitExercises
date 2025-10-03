@@ -168,3 +168,9 @@ git stash push -m "Modified typing on my readme file"
 git stash pop
 
 ```
+### Branch merging conflict
+
+I created a merge conflict by editing the same line of code differently on the dev branch and a ft/ improved-branch-name branch. When I tried to merge feature into main, Git showed a conflict. I opened the file, removed the conflict markers, and chose the final version I wanted. After saving, I staged the file with git add and completed the merge with git commit. The conflict was resolved and both changes were combined.
+
+### Resolving merging conflicts with a merge tool
+I pulled from the dev branch and some conflicts appeared and the after clicked on solve conflicts with merge tool and then after I saw different options like accept current changes, accept incoming changes, combine both changes and then i choose the one that i preferred and clicked solve
