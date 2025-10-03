@@ -174,3 +174,44 @@ I created a merge conflict by editing the same line of code differently on the d
 
 ### Resolving merging conflicts with a merge tool
 I pulled from the dev branch and some conflicts appeared and the after clicked on solve conflicts with merge tool and then after I saw different options like accept current changes, accept incoming changes, combine both changes and then i choose the one that i preferred and clicked solve
+
+
+### Understanding Detached HEAD
+Detached HEAD refers to a state where your working directory is not associated with any specific branch.
+The only way that you can save all the commits you done in this state is by creating a branch before or after working inside the specific commit that you've checked-out
+and then after you can merge or create pull requests
+
+
+### Ignoring files and directories
+```
+touch .gitignore
+added /tmp 
+```
+
+### Working with tags
+There are two types of tags in git which are
+lightweight tag with no specific message
+annotated tag with specifig tag
+```
+git tag v1.0 // lightweight tag
+git tag  -a v1.0 -m "version one" //annotated tag 
+```
+
+### Listing and deleting tags
+```
+git tag // listing all the tags
+git tag -d v1.0 // deleting the specific tag
+
+```
+
+### Pushing Changes from local to remote repositories
+```
+git add README.md
+git commit -m "chore : adding the last 3 part of the exercises"
+git push origin dev
+```
+
+### Pulling changes from remote repository
+```
+git pull origin dev 
+```
